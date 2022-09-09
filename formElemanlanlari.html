@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Elemanlarinin Ozellikleri</h1>
+    <form name="uygulama" action="uyg.php" method="get">
+        <table border=1>
+            <tr>
+                <td>Ad Soyad</td>
+                <td><input type="text" name="ad" autofocus></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Oneri:</td>
+                <td><textarea name="oneri"  cols="40" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="gonder"></td>
+                <td><input type="reset" value="iptal"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
